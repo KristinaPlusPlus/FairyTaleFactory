@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FTFactory</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="story_Start">Start Your Story!</string>
+    <string name="cancel"> Cancel</string>
+    <string name="ok">OK</string>
+    <string name="dialog_title">Customize your story</string>
+    <string name="dialog_input_hero">Please enter your hero\'s name:</string>
+    <string name="dialog_input_villian">Please enter your villain\'s name:</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="dialog_input_object">Please chose a symbolic object:</string>
+    <string name="end_button">Start Over?</string>
+
+    <string-array name="spinner1">
+        <item>Apple Pie</item>
+        <item>Garden Snake</item>
+        <item>Wooden Sword</item>
+        <item>Magican\'s Wand</item>
+        <item>Ball Of Yarn</item>
+        <item>Plastic Slippers</item>
+    </string-array>
+
+    <string name="title_activity_story">StoryActivity</string>
+    <string name="title_activity_end">EndActivity</string>
+
+</resources>

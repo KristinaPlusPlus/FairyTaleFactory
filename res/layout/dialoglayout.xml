@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_input_hero"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/heroName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <RadioGroup
+        android:id="@+id/heroSex"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    	<RadioButton
+        	android:id="@+id/femaleHero"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/gender_female" />
+
+    	<RadioButton
+    	    android:id="@+id/maleHero"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:text="@string/gender_male" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_input_villian"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/villianHero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <RadioGroup
+        android:id="@+id/villainSex"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    	<RadioButton
+        	android:id="@+id/femaleVillian"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/gender_female" />
+
+    	<RadioButton
+    	    android:id="@+id/maleVillian"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:text="@string/gender_male" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_input_object"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+        android:id="@+id/object"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinner1"/>
+    
+</LinearLayout>

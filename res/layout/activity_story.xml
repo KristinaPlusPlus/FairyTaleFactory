@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/book_inside"
+    tools:context="edu.ramapo.KristinaCorrado.fairytalefactory.StoryActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="400dp"
+        android:layout_height="550dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="79dp" >
+        
+        <TextView
+        android:id="@+id/storyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:textSize="30sp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="91dp"
+        android:layout_marginRight="34dp"
+        android:onClick="clickNext"
+        android:background="@drawable/arrow_hand" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="275dp"
+        android:layout_height="550dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="38dp"
+        android:layout_toLeftOf="@+id/imageButton1"
+        android:src="@drawable/illustration" />
+
+</RelativeLayout>
